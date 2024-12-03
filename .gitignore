@@ -1,0 +1,26 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+
+# Dependency files
+*.d
+
+# Backup files
+*~
+*.bak
+
+# Temporary files
+*.swp
+*.tmp
+
+# Build directories
+build/
+Debug/
+Release/
+
+# AOC Specific
+inputs/
