@@ -27,7 +27,7 @@ int getSimilarityScore(std::vector<int> left, std::vector<int> right) {
 
 int main() {
     
-    std::ifstream input("input.txt");
+    std::ifstream input("../inputs/day1-input.txt");
     if (!input.is_open()) {
         std::cerr << "Error: Could not open the file!" << std::endl;
         return 1;

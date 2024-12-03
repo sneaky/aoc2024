@@ -31,7 +31,7 @@ bool isDecreasing(const std::vector<int>& tokens) {
 
 int main() {
     
-    std::ifstream input("input.txt");
+    std::ifstream input("../inputs/day2-input.txt");
     if (!input.is_open()) {
         std::cerr << "Error: Could not open the file!" << std::endl;
         return 1;
